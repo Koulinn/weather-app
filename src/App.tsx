@@ -1,7 +1,8 @@
 import React from "react";
+import AppWrapper from "./components/Wrappers/AppWrapper";
 
 function App() {
-  return <div className="App"></div>;
+  return <AppWrapper className="App">dfg</AppWrapper>;
 }
 
 export default App;
