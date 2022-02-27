@@ -1,8 +1,13 @@
+import { Container } from "@mui/material";
 import React from "react";
-import AppWrapper from "./components/Wrappers/AppWrapper";
+import CustomButton from "./components/ui/CustomBtn.style";
 
 function App() {
-  return <AppWrapper className="App">dfg</AppWrapper>;
+  return (
+    <Container>
+      <CustomButton green>btn</CustomButton>
+    </Container>
+  );
 }
 
 export default App;
